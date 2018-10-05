@@ -1,0 +1,152 @@
+
+.mainBody{
+	position: relative;
+}
+.appHead{
+	position: fixed;
+	width:100%;
+	z-index:10;
+}
+.row{
+	margin-top: 90px;
+}
+.screenStyle{
+	box-shadow: 0px 10px 10px 0px #ddd;
+}
+.sidePalBody{
+	position: relative;
+	right: 0px;
+}
+.container.nav-wrapper{
+	width:90%;
+}
+.container.forBody{
+	width :100%;
+	padding:10px 50px;
+	position: relative;
+}
+.box{
+	align-items: center;
+}
+.smallOne{
+	height:140px;
+}
+.un{
+	font-family: monospace;
+	letter-spacing: 1em;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.push-left{
+	float: left;
+}
+.push-right{
+	float: right;
+}
+.clipArt{
+	height:110px;
+	margin: 5px 0px;
+}
+.clipArt>img{
+	width: 170px;
+	height: inherit;
+	border: 1px solid #ccc;
+	cursor: pointer;	
+	box-shadow: 0px 5px 5px 0px #ddd;
+}
+.clipDetail{
+	cursor: pointer;
+	height:130px;
+	position: relative;
+}
+.clipDetail>.Utag{
+	margin: 0px;
+	color: #7b8d8e;
+}
+.duration{
+	position: absolute;
+	bottom: 0.2em;
+	right:0;
+	color: #fff;
+	font-size: 0.8em;
+	background-color: rgba(0,0,0,0.7);
+	padding:1px 5px;
+}
+.clipDetail>.vName{
+	margin-top: 5px;
+	margin-bottom:0px;
+	font-size: 1em;
+	font-weight: bold;
+}
+.inDetail{
+	margin-top: 1em;
+	height:100px;
+	border:0.2px solid ghostwhite;
+	box-shadow: 0px 5px 5px 0px #eee;
+	padding:1em;
+}
+.vName>h5{
+	margin:5px;
+	font-family:serif;
+}
+.vInter>h6{
+	margin:5px;
+	margin-top: 7px;
+}
+
+@media only screen and (max-width: 600px){
+	nav>.nav-wrapper.container>.brand-logo{
+		left:10%;
+	}
+	.appHead{
+		position: fixed;
+		top:0px;
+	}
+	.container.forBody{
+		padding:0px;
+	}
+	.container.forBody>.row{
+		margin-top: 56px;
+	}
+	.container.forBody>.row>.screenBody{
+		margin-bottom: 2.5em;
+		padding:0px;
+	}
+	.col.sidePalBody{
+		padding:0.5em;
+	}
+	.vInter>.push-right{
+		float: none;
+	}
+	.vInter>.push-left{
+		float: none;
+	}
+	.clipArt{
+		height:100px;
+		margin: 5px 0px;
+	}
+	.clipArt>img{
+		width: 100%;
+		height: inherit;
+		border: 1px solid #ccc;
+		cursor: pointer;
+	}
+	.clipDetail{
+		cursor: pointer;
+		height:70px;
+		position: relative;
+	}
+	.smallOne{
+		height:130px;
+	}
+	.screenStyle{
+		box-shadow: 0px 0px 0px 0px;
+	}
+	.inDetail{
+		margin-top: 0px;
+		height:55px;
+	}
+
+}
