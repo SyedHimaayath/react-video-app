@@ -6,10 +6,7 @@ import { Player, BigPlayButton  } from 'video-react';
 class Screen extends Component {
 	constructor(props){
 		super(props)
-		
 	}
-
-
 
 	componentDidUpdate(){
 		this.refs.player.load()

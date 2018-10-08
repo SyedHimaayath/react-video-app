@@ -3,11 +3,7 @@ import React, { Component } from 'react';
 export class Vsmall extends Component {
 	constructor(props){
 		super(props);
-		this.state ={
-			running : ""
-		}
 		this.handleThis = this.handleThis.bind(this)
-		
 	}
 
 	handleThis(selected){

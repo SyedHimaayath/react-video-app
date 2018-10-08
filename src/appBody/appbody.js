@@ -35,7 +35,7 @@ class Appbody extends Component {
 			<div className="temp">
 				<div className="container forBody">
 					<div className="row">
-						<Screen  name={this.state.defaultT.name} url={this.state.defaultT.url} poster={this.state.defaultT.poster}/>
+						<Screen name={this.state.defaultT.name} url={this.state.defaultT.url} poster={this.state.defaultT.poster}/>
 						<SidePal carry={this.state.detail} touched={this.changeHandled} ref="getIt" />
 					</div>
 				</div>

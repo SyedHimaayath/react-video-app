@@ -13,7 +13,6 @@ export class SidePal extends Component {
 		this.props.touched(data)
 	}
 
-
 	render() {
 		return (
 			<div className=" col s12 m8 l4 sidePalBody">
